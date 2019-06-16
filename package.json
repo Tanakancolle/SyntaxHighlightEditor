@@ -1,0 +1,9 @@
+{
+  "name": "syntax-hilight-editor",
+  "version": "1.0.0",
+  "displayName": "SyntaxHilightEditor",
+  "unity": "2019.1",
+  "description": "Syntax Hilight Text Area",
+  "dependencies": {
+  }
+}
