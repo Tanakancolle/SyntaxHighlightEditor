@@ -1,9 +1,9 @@
 {
-  "name": "syntax-hilight-editor",
-  "version": "1.0.0",
-  "displayName": "SyntaxHilightEditor",
-  "unity": "2019.1",
-  "description": "Syntax Hilight Text Area",
+  "name": "syntax-highlight-editor",
+  "version": "0.1.0",
+  "displayName": "SyntaxHighlightEditor",
+  "unity": "2017.1",
+  "description": "Syntax Highlight Editor",
   "dependencies": {
   }
 }
