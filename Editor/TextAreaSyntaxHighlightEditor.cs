@@ -8,15 +8,22 @@ namespace SyntaxHighlightEditor
     /// </summary>
     public class TextAreaSyntaxHighlightEditor
     {
-        public Color BackgroundColor { get; set; } = Color.black;
+        public Color BackgroundColor { get; set; }
 
-        public Color TextColor { get; set; } = Color.white;
+        public Color TextColor { get; set; }
 
-        public System.Func<string, string> Highlighter { get; set; } = code => code;
+        public System.Func<string, string> Highlighter { get; set; }
 
         public string CachedHighlightedCode { get; set; }
 
         private string _cachedCode;
+
+        public TextAreaSyntaxHighlightEditor()
+        {
+            BackgroundColor = Color.black;
+            TextColor = Color.white;
+            Highlighter = code => code;
+        }
 
         public string Draw(string code, GUIStyle style, params GUILayoutOption[] options)
         {
